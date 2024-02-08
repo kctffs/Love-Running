@@ -1,19 +1,19 @@
-/* Google Fonts Import */
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Asterisk Wildcard Selector, Overide Default Settings */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Genral Style */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic Project Style */
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -40,14 +40,13 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525
+    color: #252525;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-
 }
 
 #menu>li {
@@ -55,10 +54,10 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a;
 }
 
-/* Nav Bar Style Drop Down */
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -70,7 +69,7 @@ nav {
     top: 100%;
 }
 
-/* Nav Toggle */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -83,10 +82,10 @@ nav {
     font-size: 2rem;
 }
 
-/* Main Content */
+/* Main content */
 main {
     background-color: lightblue;
-    /* Main Element Take Surplus Space, Push Footer Down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
