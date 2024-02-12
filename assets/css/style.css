@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -95,7 +95,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/Love-Running.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -144,7 +144,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -211,7 +211,7 @@ main {
         margin-top: 79px;
     }
 
-    /* Hero image */
+    /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
@@ -222,18 +222,19 @@ main {
     #benefits-mental {
         display: flex;
         flex-direction: column;
-         width: 100%;
+        width: 100%;
     }
-    
+
     #benefits-physical>div,
     #benefits-mental>div {
         width: 75%;
     }
-    
+
     #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -241,30 +242,32 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
 
 @media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
-    
+
     #benefits>div {
         flex: 1;
     }
-    
+
     #benefits-image {
         order: 0
     }
-    
+
     #benefits-mental {
         order: 1;
     }
-    
+
     #benefits-mental>div {
         align-self: flex-start;
     }
-    
+
     #benefits-physical>div {
         align-self: flex-end;
     }
